@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/main_activity_layout"
+    android:padding="30sp">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="175dp"
+            android:layout_marginBottom="20sp"
+            app:srcCompat="@drawable/gps" />
+
+        <Button
+            android:id="@+id/btn_trackini"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="trackini"
+            android:layout_marginBottom="20sp"/>
+        <Button
+            android:id="@+id/btn_show"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="show my track"
+            android:layout_marginBottom="20sp"/>
+
+        <Button
+            android:id="@+id/btn_pos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="positions"
+            android:layout_marginBottom="20sp"/>
+
+</LinearLayout>
